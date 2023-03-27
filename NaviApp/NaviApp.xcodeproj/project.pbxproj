@@ -16,6 +16,8 @@
 		524049B129D1E13E00461843 /* NaviAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524049B029D1E13E00461843 /* NaviAppTests.swift */; };
 		524049BB29D1E13E00461843 /* NaviAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524049BA29D1E13E00461843 /* NaviAppUITests.swift */; };
 		524049BD29D1E13E00461843 /* NaviAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524049BC29D1E13E00461843 /* NaviAppUITestsLaunchTests.swift */; };
+		524049CC29D1EA6200461843 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524049CB29D1EA6200461843 /* FormViewController.swift */; };
+		524049CE29D1EABD00461843 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524049CD29D1EABD00461843 /* InfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		524049B629D1E13E00461843 /* NaviAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaviAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		524049BA29D1E13E00461843 /* NaviAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviAppUITests.swift; sourceTree = "<group>"; };
 		524049BC29D1E13E00461843 /* NaviAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		524049CB29D1EA6200461843 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		524049CD29D1EABD00461843 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				524049A229D1E13E00461843 /* Assets.xcassets */,
 				524049A429D1E13E00461843 /* LaunchScreen.storyboard */,
 				524049A729D1E13E00461843 /* Info.plist */,
+				524049CB29D1EA6200461843 /* FormViewController.swift */,
+				524049CD29D1EABD00461843 /* InfoViewController.swift */,
 			);
 			path = NaviApp;
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			files = (
 				5240499E29D1E13C00461843 /* ViewController.swift in Sources */,
 				5240499A29D1E13C00461843 /* AppDelegate.swift in Sources */,
+				524049CC29D1EA6200461843 /* FormViewController.swift in Sources */,
 				5240499C29D1E13C00461843 /* SceneDelegate.swift in Sources */,
+				524049CE29D1EABD00461843 /* InfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
