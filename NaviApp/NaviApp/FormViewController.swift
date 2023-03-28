@@ -31,7 +31,7 @@ class FormViewController: UIViewController {
             destVC.ln = lname.text!
             destVC.em = eid.text!
             destVC.ad = add.text!
-            destVC.co = country.text!
+            destVC.pass = country.text!
             destVC.ci = city.text!
             destVC.pt = postal.text!
             
